@@ -14,7 +14,7 @@ Plan de trabajo basado en el archivo de Figma y en la estructura actual del proy
 - [x] **Registrar mascota** (`/dashboard/pets/new`): drawer responsivo sobre el dashboard, con carga local de foto, campos validados y observaciones. Commit: `feat: implement pet registration drawer`.
 - [x] **Home de prestador** (`/provider/dashboard`): agenda diaria, estados de citas, acciones y resumen operativo. Commit: `feat: implement provider dashboard`.
 - [x] **Servicios** (`/servicios`): filtros, resultados de prestadores, favoritos, ordenamiento y acceso a reservar. Commit: `feat: implement services catalog`.
-- [ ] **Reservar** (`/reservar`): seleccionar mascota, fecha y hora, y transferir el detalle a confirmación.
+- [x] **Reservar** (`/reservar`): seleccionar mascota, fecha y hora, y transferir el detalle a confirmación. Commit: `feat: implement booking flow`.
 - [ ] **Confirmación** (`/confirmacion`): mostrar código, estado, resumen de reserva y acciones de comprobante.
 - [ ] **Revisión visual final**: comparar todas las vistas integradas con escritorio y móvil.
 
