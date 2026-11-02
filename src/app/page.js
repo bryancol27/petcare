@@ -142,7 +142,7 @@ export default function Home() {
               <p className="landing-section-eyebrow">Todo en un solo lugar</p>
               <h2 id="services-heading">¿Qué necesita tu mascota hoy?</h2>
             </div>
-            <Link className="landing-all-services" href="#buscar">
+            <Link className="landing-all-services" href="/servicios">
               Ver todos los servicios
               <span aria-hidden="true">→</span>
             </Link>
@@ -150,7 +150,7 @@ export default function Home() {
 
           <div className="landing-service-grid">
             {services.map((service) => (
-              <a className="landing-service-card" href="#buscar" key={service.name}>
+              <Link className="landing-service-card" href="/servicios" key={service.name}>
                 <span className={`landing-service-icon landing-service-icon--${service.tone}`}>
                   <Image src={service.icon} alt="" width={service.name === "Veterinaria" ? 20 : 27} height={service.name === "Veterinaria" ? 20 : 27} />
                 </span>
@@ -160,7 +160,7 @@ export default function Home() {
                   <span className="landing-service-price">{service.price}</span>
                 </span>
                 <span className="landing-service-arrow" aria-hidden="true">→</span>
-              </a>
+              </Link>
             ))}
           </div>
         </section>

@@ -6,18 +6,21 @@ Plan de trabajo basado en el archivo de Figma y en la estructura actual del proy
 
 - [x] **System design / UI kit**: tokens visuales y componentes reutilizables implementados; catálogo disponible en `/ui-kit`.
 - [x] **Landing**: portada implementada para escritorio y móvil, con navegación, búsqueda, categorías y sección de confianza.
-- [x] **Inventario de pantallas Figma**: login (`1:607`, `1:726`), registro (`1:344`, `1:513`), home tutor (`2:913`, `2:740`), registro de mascota en drawer (`2:315`, `2:564`) y agenda del prestador (`5:2577`, `5:2816`). Cada par corresponde a escritorio y móvil.
-- [x] **Plan por pantalla**: una ruta y un commit independiente por pantalla. Orden: login, registro, home tutor, drawer de mascota, home prestador.
+- [x] **Inventario de pantallas Figma**: landing, login, registro, home tutor, registro de mascota, servicios (`3:1597`, `3:1887`), reservar (`3:2072`, `3:2261`), confirmación (`3:2393`, `3:2486`) y agenda del prestador (`5:2577`, `5:2816`). Cada par corresponde a escritorio y móvil.
+- [x] **Plan por pantalla**: una ruta y un commit independiente por pantalla. Orden: login, registro, home tutor, drawer de mascota, home prestador, servicios, reserva y confirmación.
 - [x] **Login** (`/login`): formulario responsivo de acceso, mostrar/ocultar contraseña y entrada al dashboard de demostración. Commit: `feat: implement login screen`.
 - [x] **Registro** (`/register`): formulario responsivo con selector tutor/prestador, validación y guía de seguridad de contraseña. Commit: `feat: implement register screen`.
 - [x] **Home autenticado** (`/dashboard`): navegación de tutor, tarjetas Zeus/Luna, recordatorios de salud y consejo descartable. Commit: `feat: implement authenticated dashboard`.
 - [x] **Registrar mascota** (`/dashboard/pets/new`): drawer responsivo sobre el dashboard, con carga local de foto, campos validados y observaciones. Commit: `feat: implement pet registration drawer`.
 - [x] **Home de prestador** (`/provider/dashboard`): agenda diaria, estados de citas, acciones y resumen operativo. Commit: `feat: implement provider dashboard`.
-- [x] **Revisión visual final**: las cinco pantallas se revisaron en sus variantes de escritorio y móvil.
+- [x] **Servicios** (`/servicios`): filtros, resultados de prestadores, favoritos, ordenamiento y acceso a reservar. Commit: `feat: implement services catalog`.
+- [ ] **Reservar** (`/reservar`): seleccionar mascota, fecha y hora, y transferir el detalle a confirmación.
+- [ ] **Confirmación** (`/confirmacion`): mostrar código, estado, resumen de reserva y acciones de comprobante.
+- [ ] **Revisión visual final**: comparar todas las vistas integradas con escritorio y móvil.
 
 ## Próxima tarea
 
-Las cinco pantallas priorizadas están implementadas y guardadas en commits independientes.
+Continuar con la reserva y la confirmación; cerrar la revisión visual cuando ambas estén integradas.
 
 ## Criterio de cierre por pantalla
 

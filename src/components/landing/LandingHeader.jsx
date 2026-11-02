@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 const navigation = [
-  ["Servicios", "#servicios"],
+  ["Servicios", "/servicios"],
   ["Cómo funciona", "#como-funciona"],
   ["Para veterinarios", "/provider"],
   ["Nosotros", "#nosotros"],

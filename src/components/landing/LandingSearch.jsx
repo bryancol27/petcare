@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui";
 
 const fields = [
@@ -10,14 +11,11 @@ const fields = [
 ];
 
 export function LandingSearch() {
-  const [status, setStatus] = useState("");
+  const router = useRouter();
 
   function handleSearch(event) {
     event.preventDefault();
-    const values = new FormData(event.currentTarget);
-    const category = values.get("category");
-    const location = values.get("location");
-    setStatus(`Búsqueda lista: ${category} en ${location}.`);
+    router.push("/servicios");
   }
 
   return (
@@ -65,7 +63,6 @@ export function LandingSearch() {
         <Image src="/assets/landing-icon-search.svg" alt="" width={20} height={20} />
         Buscar servicios
       </Button>
-      <span className="landing-search-status" aria-live="polite">{status}</span>
     </form>
   );
 }
