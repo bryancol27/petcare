@@ -1,5 +1,9 @@
 import { Badge, Button, ChipGroup, PetProfileCard, SelectField, ServiceCard, StatusBadge, TextField } from "@/components/ui";
 
+export const metadata = {
+  title: "PetCare · UI Kit",
+};
+
 const colors = [
   ["Marca · principal", "#0D9488", "--primary"],
   ["Marca · interacción", "#0F766E", "--primary-hover"],

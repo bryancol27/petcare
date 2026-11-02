@@ -2,9 +2,15 @@
 
 Proyecto web de PetCare construido con Next.js App Router, React y Tailwind CSS 4.
 
+## Estado del proyecto
+
+Consulta el [plan de implementación](IMPLEMENTATION_PLAN.md) para ver las tareas completadas y pendientes.
+
+La landing está en `/`. El catálogo del UI kit está en `/ui-kit`.
+
 ## UI kit
 
-La primera entrega implementa el sistema visual de Figma como tokens globales y componentes React reutilizables. La ruta `/` redirige al catálogo `/ui-kit`, donde se pueden revisar la paleta, tipografía, botones, controles, chips, estados y tarjetas de datos.
+El sistema visual de Figma está implementado como tokens globales y componentes React reutilizables. En `/ui-kit` se pueden revisar la paleta, tipografía, botones, controles, chips, estados y tarjetas de datos.
 
 Componentes base en `src/components/ui`:
 
@@ -22,4 +28,4 @@ Los colores, tipografías, radios y sombras se definen en `src/app/globals.css`.
 npm run dev
 ```
 
-Abre [http://localhost:3000](http://localhost:3000) para ver el UI kit.
+Abre [http://localhost:3000](http://localhost:3000) para ver la landing. El catálogo del UI kit está en [http://localhost:3000/ui-kit](http://localhost:3000/ui-kit).
