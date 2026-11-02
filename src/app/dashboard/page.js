@@ -73,7 +73,7 @@ function PetCard({ pet }) {
   );
 }
 
-export default function DashboardPage() {
+export function DashboardPage() {
   const [showTip, setShowTip] = useState(true);
 
   return (
@@ -99,3 +99,5 @@ export default function DashboardPage() {
     </div>
   );
 }
+
+export default DashboardPage;
