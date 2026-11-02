@@ -9,7 +9,7 @@ Plan de trabajo basado en el archivo de Figma y en la estructura actual del proy
 - [x] **Inventario de pantallas Figma**: login (`1:607`, `1:726`), registro (`1:344`, `1:513`), home tutor (`2:913`, `2:740`), registro de mascota en drawer (`2:315`, `2:564`) y agenda del prestador (`5:2577`, `5:2816`). Cada par corresponde a escritorio y móvil.
 - [x] **Plan por pantalla**: una ruta y un commit independiente por pantalla. Orden: login, registro, home tutor, drawer de mascota, home prestador.
 - [x] **Login** (`/login`): formulario responsivo de acceso, mostrar/ocultar contraseña y entrada al dashboard de demostración. Commit: `feat: implement login screen`.
-- [ ] **Registro** (`/register`): selector de tipo de cuenta y validación de datos de tutor/prestador.
+- [x] **Registro** (`/register`): formulario responsivo con selector tutor/prestador, validación y guía de seguridad de contraseña. Commit: `feat: implement register screen`.
 - [ ] **Home autenticado** (`/dashboard`): mascotas registradas, navegación de cuenta y tarjeta de consejo.
 - [ ] **Registrar mascota** (`/dashboard/pets/new`): drawer adaptable para foto, datos y observaciones de la mascota.
 - [ ] **Home de prestador** (`/provider/dashboard`): agenda diaria, estados de citas, acciones y resumen operativo.
@@ -17,7 +17,7 @@ Plan de trabajo basado en el archivo de Figma y en la estructura actual del proy
 
 ## Próxima tarea
 
-Continuar con registro y guardar un commit independiente al finalizar; después seguir con las pantallas restantes en el orden indicado.
+Continuar con home autenticado y guardar un commit independiente al finalizar; después seguir con las pantallas restantes en el orden indicado.
 
 ## Criterio de cierre por pantalla
 
