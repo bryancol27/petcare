@@ -15,12 +15,12 @@ Plan de trabajo basado en el archivo de Figma y en la estructura actual del proy
 - [x] **Home de prestador** (`/provider/dashboard`): agenda diaria, estados de citas, acciones y resumen operativo. Commit: `feat: implement provider dashboard`.
 - [x] **Servicios** (`/servicios`): filtros, resultados de prestadores, favoritos, ordenamiento y acceso a reservar. Commit: `feat: implement services catalog`.
 - [x] **Reservar** (`/reservar`): seleccionar mascota, fecha y hora, y transferir el detalle a confirmación. Commit: `feat: implement booking flow`.
-- [ ] **Confirmación** (`/confirmacion`): mostrar código, estado, resumen de reserva y acciones de comprobante.
-- [ ] **Revisión visual final**: comparar todas las vistas integradas con escritorio y móvil.
+- [x] **Confirmación** (`/confirmacion`): mostrar código, estado, resumen de reserva y acciones de comprobante. Commit: `feat: implement booking confirmation`.
+- [x] **Revisión visual final**: las vistas integradas se revisaron en escritorio y móvil.
 
 ## Próxima tarea
 
-Continuar con la reserva y la confirmación; cerrar la revisión visual cuando ambas estén integradas.
+Las vistas del inventario están integradas en escritorio y móvil y cada flujo tiene un commit independiente.
 
 ## Criterio de cierre por pantalla
 
